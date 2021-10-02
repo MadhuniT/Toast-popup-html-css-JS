@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="toast.css"/>
+    <script src="toast.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Toast Notification</h1>
+      <ul class="summary">
+        <button onclick="Toast.show('Toast in error','error')">Show toast-error</button>
+        <button onclick="Toast.show('Toast in success','success')">Show toast-success</button>
+      </ul>
+      <script defer>
+          Toast.init()
+      </script>
+</body>
+</html>
